@@ -1,0 +1,110 @@
+/*
+#E6E2AF cream
+#A7A37E brown
+#EFECCA light gray
+#046380 blue
+#002F2F dark
+*/
+
+.navbar-dark .navbar-brand {
+  color: #E6E2AF;
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+  color: #E6E2AF;
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #A7A37E;
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.btn-outline-success {
+  color: #EFECCA;
+  border-color: #EFECCA;
+}
+
+.btn-outline-success:hover {
+  color: #002F2F;
+  background-color: #EFECCA;
+  border-color: #002F2F;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1em;
+  color: #002F2F;
+}
+
+h2 {
+  text-align: center;
+  margin: 0.5em;
+  color: #002F2F;
+  font-size: 1.5em;
+}
+
+.image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  opacity: 0.5;
+}
+
+.media {
+  margin: 3em;
+}
+
+h5 {
+  margin-left: 2em;
+}
+
+p {
+  margin: 2em;
+  margin-top: 1em;
+}
+
+.bg-light {
+  background-color: #046380!important;
+}
+
+body {
+  background-color: #EFECCA;
+}
+
+.thumbnail img {
+  width: 256px;
+}
+
+/* Image Grid */
+.portfolio {
+  margin: 2em;
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.image_grid img {
+  width: 100%;
+}
+
+.right-text {
+  text-align: right;
+  font-style: italic;
+}
+
+.reviews {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
